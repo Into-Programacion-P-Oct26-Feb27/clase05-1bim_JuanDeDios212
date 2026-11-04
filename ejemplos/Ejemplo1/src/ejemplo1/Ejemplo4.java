@@ -24,7 +24,10 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine(); /*
+        enrada.nextLine() se lo utiliza porque hay un cambio de numero a cadena
+        entonces se usa eso para que tome el \n que deja el scann anterior
+        */
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
@@ -38,3 +41,4 @@ public class Ejemplo4 {
     }
 
 }
+// 
